@@ -1,0 +1,11 @@
+#version 400 core
+
+in vec3 texCoords;
+
+out vec4 finalColor;
+
+uniform samplerCube textureSampler;
+
+void main() {
+	finalColor = vec4(1.0,0.0,0.0,1.0);
+}
